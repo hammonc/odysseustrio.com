@@ -1,0 +1,184 @@
+* {
+	font-family: "Gill Sans", Arial;
+	font-weight: lighter;
+	color: #3f3f3f;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+	color: #f80c18;
+}
+
+a img {
+	border: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#index-logo-1 {
+	position: absolute;
+       	top: 10px;
+       	left: 10px;
+	width: 278px;
+	height: 142px;
+}
+
+#index-logo-2 {
+	position: absolute;
+       	top: 10px;
+       	left: 180px;
+	width: 262px;
+	height: 140px;
+}
+
+#container {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#banner-name a {
+	font-size: 42px;
+	color: #3f3f3f;
+}
+
+#banner-subtitle a {
+	font-size: 24px;
+}
+
+#banner img {
+	width: 100%;
+}
+
+#navigation {
+	padding-bottom: 30px;
+}
+
+#navigation ul {
+	width: 720px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#navigation li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+}
+
+#navigation li.selected  a {
+	text-decoration: underline;
+}
+
+.concert-entry {
+	overflow: hidden;
+	margin: 0px 60px;
+	padding-top: 15px;
+}
+
+.concert-date {
+	float: left;
+	width: 120px;
+	color: #f80c18;
+}
+
+.concert-info {
+	float: left;
+	width: 480px;
+}
+
+.concert-location {
+	font-weight: normal;
+}
+
+.concert-details {
+}
+
+.concert-more-details {
+	font-size: 80%;
+}
+
+.concert-more-details li {
+	list-style-type: none;
+}
+
+.repertoire {
+	width: 660px;
+}
+
+.repertoire-item td {
+	padding: 5px 10px;
+}
+
+.repertoire-composer {
+	text-align: right;
+	color: #f80c18;
+}
+
+.repertoire-title {
+}
+
+.ticket-details {
+	font-size: 80%;
+	padding-left: 20px;
+}
+
+#thumbnails td {
+	padding: 20px;
+}
+
+#home h2 {
+	text-align: center;
+}
+
+img#home-image {
+	width: 100%;
+}
+
+div.jp-audio,
+div.jp-video {
+	margin: 40px auto;
+	font-family: "Gill Sans", Arial;
+	border:1px solid #f80c18;
+}
+
+div.jp-title,
+div.jp-playlist {
+	border-top:1px solid #f80c18;
+}
+
+div.jp-video div.jp-interface {
+	border-top:1px solid #f80c18;
+}
+
+.jp-no-solution {
+	border:2px solid #f80c18;
+}
+
+div.jp-title li {
+	font-weight: lighter;
+}
+
+.youtube {
+	margin: 20px 30px;
+}
+
+table#artists td {
+	vertical-align: top;
+}
+
+table#artists img {
+	width: 200px;
+	padding: 20px;
+}

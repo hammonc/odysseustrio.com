@@ -1,0 +1,8 @@
+---
+layout: default
+title: Peter Inglesby
+---
+
+<div id="container">
+	{{ content }}
+</div>
