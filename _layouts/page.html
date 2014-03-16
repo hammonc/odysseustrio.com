@@ -23,7 +23,7 @@ layout: default
 				{{ content }}
 			</div>
 			<div id="footer">
-				<p>All photos &copy; Nobby Clark</p>
+				{% if page.title != "Players" %}<p>All photos &copy; Nobby Clark, unless otherwise stated.</p>{% endif %}
 			</div>
 		</div>
 
