@@ -118,6 +118,10 @@ a:hover {
 	list-style-type: none;
 }
 
+#download-link {
+	text-align: center;
+}
+
 .repertoire {
 	width: 660px;
 }
