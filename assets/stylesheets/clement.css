@@ -86,6 +86,12 @@ a:hover {
 	text-decoration: underline;
 }
 
+#footer {
+	float: right;
+	margin-top: 48px;
+	font-size: 80%;
+}
+
 .concert-entry {
 	overflow: hidden;
 	margin: 0px 60px;
