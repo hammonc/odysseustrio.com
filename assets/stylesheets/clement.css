@@ -1,5 +1,4 @@
 * {
-	font-family: Muli, Arial;
 	font-weight: lighter;
 	color: #3f3f3f;
 }
@@ -10,11 +9,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Julius Sans One";
-}
-
-p {
-	text-align: justify;
-	font-size: 85%;
 }
 
 a {
@@ -93,11 +87,17 @@ a:hover {
 }
 
 #navigation li a {
-	font-family: "Julius Sans One", "Gill Sans", Arial;
+	font-family: "Julius Sans One", Arial;
 }
 
 #navigation li.selected  a {
 	text-decoration: underline;
+}
+
+#content {
+	font-family: Muli, Arial;
+	text-align: justify;
+	font-size: 85%;
 }
 
 #footer {
@@ -171,6 +171,10 @@ a:hover {
 	text-align: center;
 }
 
+#contact {
+	text-align: center;
+}
+
 img#home-image {
 	width: 100%;
 }
@@ -178,7 +182,7 @@ img#home-image {
 div.jp-audio,
 div.jp-video {
 	margin: 40px auto;
-	font-family: "Gill Sans", Arial;
+	font-family: Muli, Arial;
 	border:1px solid #f80c18;
 }
 
