@@ -1,5 +1,5 @@
 * {
-	font-family: "Gill Sans", Arial;
+	font-family: Muli, Arial;
 	font-weight: lighter;
 	color: #3f3f3f;
 }
@@ -8,8 +8,13 @@ body {
 	margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Julius Sans One";
+}
+
 p {
 	text-align: justify;
+	font-size: 85%;
 }
 
 a {
@@ -46,7 +51,12 @@ a:hover {
 	margin: 0 auto;
 }
 
+#banner a {
+	font-family: "Julius Sans One";
+}
+
 #banner-name a {
+	font-family: "Julius Sans One";
 	font-size: 42px;
 	color: #3f3f3f;
 }
@@ -77,9 +87,13 @@ a:hover {
 #navigation li {
 	display: inline;
 	list-style-type: none;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 11px;
+	padding-right: 11px;
 	font-size: 20px;
+}
+
+#navigation li a {
+	font-family: "Julius Sans One", "Gill Sans", Arial;
 }
 
 #navigation li.selected  a {
